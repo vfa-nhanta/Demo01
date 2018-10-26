@@ -10,7 +10,10 @@ import TextBox from './components/TextBox';
 import ButtonTapTap from './components/ButtonTapTap';
 import VerticalScrollView from './components/VerticalScrollView';
 import Touchable from './components/Touchable';
-*/
 import LifeCycleComponent from './components/LifeCycleComponent';
+import BasicFlatList from './components/BasicFlatList';
+import HorizontalFlatList from './components/HorizontalFlatList';
+*/
+import BasicSectionList from './components/BasicSectionList';
 
-AppRegistry.registerComponent(appName, () => LifeCycleComponent);
+AppRegistry.registerComponent(appName, () => BasicSectionList);
