@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, SectionList, Platform } from 'react-native';
+import { View, Text, SectionList, Platform, RefreshControl } from 'react-native';
 import { sectionListData } from '../data/sectionListData';
 
 
@@ -26,6 +26,12 @@ class SectionHeader extends Component {
 }
 
 export default class BasicSectionList extends Component {
+    constructor(props){
+        super(props);
+        this.state = ({
+            refreshing: false,
+        });
+    }
     render(){
         return (
             <View style={{

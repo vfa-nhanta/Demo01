@@ -4,15 +4,18 @@ import flatListData from '../data/flatListData';
 import Swipeout from 'react-native-swipeout';
 import AddModal from './AddModal';
 import EditModal from './EditModal';
+import getDataFromServer from '../networking/server';
 
 class FlatListItem extends Component {
     constructor(props){
         super(props);
-        this.state = {
+        this.state = ({
             activeRowKey: null,
-            numberOfRefresh: 0
-        };
+            numberOfRefresh: 0,
+            dataFromServer: []
+        });
     }
+
     refreshFlatListItem = () => {
         this.setState((prevState) => {
             numberOfRefresh = prevState.numberOfRefresh + 1;
@@ -108,7 +111,17 @@ export default class BasicFlatList extends Component {
         });
         this._onPressAdd = this._onPressAdd.bind(this);
     }
+    componentDidMount() {
+        this.refreshDataFromServer();
+    }
     
+    refreshDataFromServer = () => {
+        getDataFromServer().then((data) => {
+            this.setState({dataFromServer : data});
+        }).catch((error) => {
+            this.setState({dataFromServer: []});
+        });
+        }
     refreshFlatList = (activeKey) => {
         this.setState((prevState) => {
             return {
@@ -143,7 +156,7 @@ export default class BasicFlatList extends Component {
                 </View>
                 <FlatList 
                 ref={"flatList"}
-                data={flatListData}
+                data={this.state.dataFromServer}
                 renderItem={({item, index})=>{
                     // console.log(`item: ${JSON.stringify(item)}, index: ${index}`)
                     return (
@@ -154,7 +167,7 @@ export default class BasicFlatList extends Component {
                 }}
                 >
                 </FlatList>
-                <AddModal ref={'addModal'} parentFlatList={this}>
+                <AddModal ref={'addModal'} parentFlatList={this.refreshDataFromServer}>
 
                 </AddModal>
                 <EditModal ref={'editModal'} parentFlatList={this}>
