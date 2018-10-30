@@ -1,0 +1,3 @@
+rootProject.name = 'TestV5ReduxSaga'
+
+include ':app'
