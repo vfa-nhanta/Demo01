@@ -1,34 +1,40 @@
 /** @format */
-
+import React, { Component } from 'react';
 import {AppRegistry} from 'react-native';
-import { StackNavigatior } from 'react-navigation';
 // import App from './App';
 import {name as appName} from './app.json';
-import MainComponent from './components/MainComponent';
-import DetailComponent from './components/DetailComponent';
-import ThirdComponent from './components/ThirdComponent';
-import { MainScreen, DetailScreen, ThirdScreen } from './screenName';
+import MainComponent from './components/MainScreen';
+import DetailComponent from './components/DetailScreen';
+import ThirdComponent from './components/ThirdScreen';
 
-const App = StackNavigatior({
+import { MainScreen, DetailScreen,ThirdScreen } from './screenNames';
+
+import { createStackNavigator } from 'react-navigation';
+
+const RootStark = createStackNavigator({
     MainScreen: {
         screen: MainComponent,
-        navigatorOptions: {
-            headerTitle: 'Main',
-        },
-    }
-    MainScreen: {
+    },
+    DetailScreen: {
         screen: DetailComponent,
-        navigatorOptions: {
+        navigationOptions: {
             headerTitle: 'Detail',
         },
-    }
-    MainScreen: {
+    },
+    ThirdScreen: {
         screen: ThirdComponent,
-        navigatorOptions: {
-            headerTitle: 'Third Screen',
+        navigationOptions: {
+            headerTitle: 'Third',
         },
-    }
-    }
+    },
 });
 
-AppRegistry.registerComponent(appName, () => MainComponent);
+export default class App extends Component {
+    render() {
+        return (
+            <RootStark />
+        )
+    }
+}
+
+AppRegistry.registerComponent(appName, () => App);

@@ -1,4 +1,4 @@
-package com.testv6stack;
+package com.testv7tab;
 
 import android.app.Application;
 
