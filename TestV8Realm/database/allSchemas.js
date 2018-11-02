@@ -1,5 +1,4 @@
 import Realm from 'realm';
-import { resolveObject } from 'url';
 
 export const TODOLIST_SCHEMA = 'TodoList';
 export const TODO_SCHEMA = 'Todo';
@@ -10,7 +9,7 @@ export const TodoSchema = {
     properties: {
         id: 'int',
         name: { type: 'string', indexed: true},
-        done: { types: 'bool', default: false },
+        done: { type: 'bool', default: false },
     }
 };
 
@@ -21,7 +20,7 @@ export const TodoListSchema = {
         id: 'int',
         name: 'string',
         creationDate: 'date',
-        todos: { types: 'list', objectType: TODO_SCHEMA },
+        todos: { type: 'list', objectType: TODO_SCHEMA },
     }
 };
 
