@@ -167,9 +167,7 @@ export default class BasicFlatList extends Component {
                 }}
                 >
                 </FlatList>
-                <AddModal ref={'addModal'} parentFlatList={this.refreshDataFromServer}>
-
-                </AddModal>
+                <AddModal ref={'addModal'} parentFlatList={this.refreshDataFromServer} />
                 <EditModal ref={'editModal'} parentFlatList={this}>
 
                 </EditModal>

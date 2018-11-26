@@ -80,13 +80,11 @@ export default class HorizontalFlatList extends Component {
                         }}
                         horizontal={true}
                         data={horizontalFlatListData}
-                        renderItem={({item, index}) => {
-                            return (
+                        renderItem={({item, index}) => (
                             <HorizontalFlatListItem item={item} index={index} parentFlatList={this}>
 
                             </HorizontalFlatListItem>
-                            );
-                        }}
+                            )}
                         keyExtractor={(item, index) => item.hour}
                         >
 

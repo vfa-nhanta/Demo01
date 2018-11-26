@@ -1,0 +1,1023 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03ABB0F849CCAF5946F7EAE0A569C794 /* Yoga.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B754CA6B5C410EBF9635305E2FD37C /* Yoga.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		041388C007A09DC8E8067C16CB9FF22D /* Pods-TestV12BankingAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D6B9C297FA093C1BBF4C73C803D75F /* Pods-TestV12BankingAppTests-dummy.m */; };
+		0B72776B9FF071B49A98574D92835E4A /* YGNodePrint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22CEA28974ABD0D751C1149B704BD82F /* YGNodePrint.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		1C468CF218AE033AB381F644F11AFEFA /* Yoga-internal.h in Headers */ = {isa = PBXBuildFile; fileRef = C00918FB326BB93B6C8743164C03E1E5 /* Yoga-internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23975DB462A0A6B3E2AD8A107EB83BAB /* YGLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 02AB3D4FDC1B2563263AAD185A49A666 /* YGLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		334BFD86072FF0E860B539EE9B5DB42D /* Pods-TestV12BankingApp-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A839BE38666D76AC443E507D999831 /* Pods-TestV12BankingApp-tvOS-dummy.m */; };
+		4DFC5E1D10F1A77AF8D8B738EBEB51DC /* YGNodePrint.h in Headers */ = {isa = PBXBuildFile; fileRef = 56D01B14F7D20491A83C39667DBAC04A /* YGNodePrint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52DDC92BE0A3B8C9A8831D1859A79027 /* YGStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA9B4C54EEA7F9413F2874BD6094CAA /* YGStyle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5EFDEDA8B76B002B555B4B94726BED1A /* Yoga.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE7926852EFE55EC74F2D50FDCB4A2 /* Yoga.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		6492C26582D138130CCB53981FC860F4 /* YGStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B35F40F1891805722FFEFEC13619DA2 /* YGStyle.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		7BE9C9D33846F8AA7DB47D1FFB0B254B /* YGConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F857415828BDA7842B0905D204A415E8 /* YGConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E8A3DF94A7F950A5DB49784D6A525F5 /* YGFloatOptional.h in Headers */ = {isa = PBXBuildFile; fileRef = 893753E3D2E371D94B2BFD6039229009 /* YGFloatOptional.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86010F566C09D883643E2EC8A03D3E18 /* YGConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7822550994C4F48F9A7DDB7E0ABCB906 /* YGConfig.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		88F933CFFF54BCEB7F761C6BA9532197 /* YGNode.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E4BB7EB4E41DBC2ADC82BA4BF5ED78 /* YGNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E5662FCAAB8668734DA68776303E9DE /* Pods-TestV12BankingApp-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D205C32875D1ECD16852728BD5503C0 /* Pods-TestV12BankingApp-tvOSTests-dummy.m */; };
+		911E27DE4F6E3E12A8F8FBDC1AD08242 /* YGEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = D0104F57FF73C384837C9C75E21EFEAC /* YGEnums.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A32CB5D4B5CC2F13A579F8CDE0C7E7AE /* YGFloatOptional.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29E4391BDC3AD12BDD485D02FA5D6538 /* YGFloatOptional.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		B1323371BEC5CF7755F4E646A2FA777F /* Yoga-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7066D2B5BCC9DFBE8326B199ECFD9EF /* Yoga-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B275F70AF89B5701A2730E26AF51E884 /* YGMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 632FC1682BF39F9720251E3E7695AAAD /* YGMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3934F16AD1D615AB3ACAA54181907B7 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA129C1A3C7EA10B0C4E2C6CE7709448 /* Utils.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		BB1F9D8641D214EC1CCFB476FEFA7ACB /* Yoga-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C778E2453798E37365AEE497893A85 /* Yoga-dummy.m */; };
+		BC984C559277B5F79969A3056F80835D /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A524462019C56D30A318E47023D4E5 /* Utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C435996A79C6DDADF758C9CBBC1DD31C /* YGNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B826F0C2516735209AD89E7FAEE83A2 /* YGNode.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		D7B12C3DEA9CCA5A82BB0BFD85292A2D /* YGEnums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC4BC722E399FAADD725F72603556DB8 /* YGEnums.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		E19D5C1B4A074846F78DD1BB1EA199D3 /* Pods-TestV12BankingApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD86D77BCF6084D5BBD6916A19072C2 /* Pods-TestV12BankingApp-dummy.m */; };
+		EB480FA3B49ACFEFB5050019C0AB27D5 /* YGLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D323FA0C8BCB031A9AA7D7D6E60DDF4 /* YGLayout.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74367ABD211DF9DE698FC5169951BC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDC8842A682901C87D0FD0E15B06D90F;
+			remoteInfo = Yoga;
+		};
+		AC9FAD0786151B7D7151AD1D107DC5B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7571A13D1F392D9643D7E558306D5254;
+			remoteInfo = "Pods-TestV12BankingApp";
+		};
+		DA5E0D708AAF590627088B5E6C6418A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D6B676227533961FDA01CD9384AF0A9;
+			remoteInfo = "Pods-TestV12BankingApp-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A7B35CC871F789298B198AA4729FA5 /* Pods-TestV12BankingAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestV12BankingAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		02AB3D4FDC1B2563263AAD185A49A666 /* YGLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGLayout.h; path = yoga/YGLayout.h; sourceTree = "<group>"; };
+		036FAEA48F06F2CFF324983A2D48229D /* Pods-TestV12BankingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestV12BankingApp.release.xcconfig"; sourceTree = "<group>"; };
+		075BBCB4B5DBD4D3951356ABDB61CFDA /* Yoga.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Yoga.xcconfig; sourceTree = "<group>"; };
+		0B826F0C2516735209AD89E7FAEE83A2 /* YGNode.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGNode.cpp; path = yoga/YGNode.cpp; sourceTree = "<group>"; };
+		15BEE7048A5CDD23A73B5490E8D34771 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		160A69F1EDD1B8C19EF0A0A5C58DF553 /* Pods-TestV12BankingApp-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestV12BankingApp-tvOS-resources.sh"; sourceTree = "<group>"; };
+		17C778E2453798E37365AEE497893A85 /* Yoga-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Yoga-dummy.m"; sourceTree = "<group>"; };
+		1B35F40F1891805722FFEFEC13619DA2 /* YGStyle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGStyle.cpp; path = yoga/YGStyle.cpp; sourceTree = "<group>"; };
+		1C90A5A9E520B947A156B3C6232816CE /* Pods-TestV12BankingAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestV12BankingAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		213C8218F491C56A0DCF752CE20724B7 /* libPods-TestV12BankingAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TestV12BankingAppTests.a"; path = "libPods-TestV12BankingAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CEA28974ABD0D751C1149B704BD82F /* YGNodePrint.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGNodePrint.cpp; path = yoga/YGNodePrint.cpp; sourceTree = "<group>"; };
+		29E4391BDC3AD12BDD485D02FA5D6538 /* YGFloatOptional.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGFloatOptional.cpp; path = yoga/YGFloatOptional.cpp; sourceTree = "<group>"; };
+		2ABE7926852EFE55EC74F2D50FDCB4A2 /* Yoga.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Yoga.cpp; path = yoga/Yoga.cpp; sourceTree = "<group>"; };
+		2B45FD51BAE2198E92C2B0C320DCF9D7 /* Pods-TestV12BankingApp-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestV12BankingApp-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FE2B394E46C0830E79DED1F2E6B1548 /* Pods-TestV12BankingApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestV12BankingApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		32C8BE299ED16CCCC485FCADC2473808 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		3DE1235A7019D9316F33151709B26E65 /* libYoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYoga.a; path = libYoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		40262BA9A2A97B61B0AB6EA811C2383D /* Pods-TestV12BankingApp-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestV12BankingApp-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		524B3A6E61884110E8223B380E23D05E /* Pods-TestV12BankingAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestV12BankingAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		52EB14679C41B1624EBEF2F9E1B067DD /* Pods-TestV12BankingApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestV12BankingApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		56D01B14F7D20491A83C39667DBAC04A /* YGNodePrint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGNodePrint.h; path = yoga/YGNodePrint.h; sourceTree = "<group>"; };
+		56D244EB7B0921D821720BD6526B766F /* Pods-TestV12BankingApp-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestV12BankingApp-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		56E3C9E0F999BE16DCF2374200CF6ECC /* Pods-TestV12BankingApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestV12BankingApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5C4F85FB1672DDBD33AE22E245B87523 /* Pods-TestV12BankingApp-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestV12BankingApp-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		5EA9B4C54EEA7F9413F2874BD6094CAA /* YGStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGStyle.h; path = yoga/YGStyle.h; sourceTree = "<group>"; };
+		632FC1682BF39F9720251E3E7695AAAD /* YGMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGMacros.h; path = yoga/YGMacros.h; sourceTree = "<group>"; };
+		6D205C32875D1ECD16852728BD5503C0 /* Pods-TestV12BankingApp-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestV12BankingApp-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		6D323FA0C8BCB031A9AA7D7D6E60DDF4 /* YGLayout.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGLayout.cpp; path = yoga/YGLayout.cpp; sourceTree = "<group>"; };
+		7822550994C4F48F9A7DDB7E0ABCB906 /* YGConfig.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGConfig.cpp; path = yoga/YGConfig.cpp; sourceTree = "<group>"; };
+		79F7E5BB48C65FDC2904ED21E314DD8E /* Pods-TestV12BankingAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestV12BankingAppTests-resources.sh"; sourceTree = "<group>"; };
+		7DD86D77BCF6084D5BBD6916A19072C2 /* Pods-TestV12BankingApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestV12BankingApp-dummy.m"; sourceTree = "<group>"; };
+		83164942CB79F8D0B0C5B01E6DE06964 /* Pods-TestV12BankingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestV12BankingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		86D8DA73762A69A56EC18FD90F889ACD /* Yoga.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = Yoga.modulemap; path = ../../Headers/Public/yoga/Yoga.modulemap; sourceTree = "<group>"; };
+		893753E3D2E371D94B2BFD6039229009 /* YGFloatOptional.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGFloatOptional.h; path = yoga/YGFloatOptional.h; sourceTree = "<group>"; };
+		8E0D1D8A4BDFB90371F39B2FD94664E4 /* Pods-TestV12BankingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestV12BankingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96D6B9C297FA093C1BBF4C73C803D75F /* Pods-TestV12BankingAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestV12BankingAppTests-dummy.m"; sourceTree = "<group>"; };
+		A2A839BE38666D76AC443E507D999831 /* Pods-TestV12BankingApp-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestV12BankingApp-tvOS-dummy.m"; sourceTree = "<group>"; };
+		A3D4A76DBE08E1F5D502E4A0D3BE9BB8 /* libPods-TestV12BankingApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TestV12BankingApp-tvOSTests.a"; path = "libPods-TestV12BankingApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CFA28049990654F43BDD4980394C34 /* Pods-TestV12BankingApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestV12BankingApp-frameworks.sh"; sourceTree = "<group>"; };
+		A8E4BB7EB4E41DBC2ADC82BA4BF5ED78 /* YGNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGNode.h; path = yoga/YGNode.h; sourceTree = "<group>"; };
+		AB685A3C4B277C9A6296FE6C87C63C9C /* libPods-TestV12BankingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TestV12BankingApp.a"; path = "libPods-TestV12BankingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4BC722E399FAADD725F72603556DB8 /* YGEnums.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGEnums.cpp; path = yoga/YGEnums.cpp; sourceTree = "<group>"; };
+		AE95397E69B5EF1D3D1EEBFDBAB6A736 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		B909D4C70252B1F9D2835328F1568597 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		C00918FB326BB93B6C8743164C03E1E5 /* Yoga-internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Yoga-internal.h"; path = "yoga/Yoga-internal.h"; sourceTree = "<group>"; };
+		C4EDD999D148C1513B447020BD52E02A /* Pods-TestV12BankingApp-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestV12BankingApp-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		C7066D2B5BCC9DFBE8326B199ECFD9EF /* Yoga-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Yoga-umbrella.h"; path = "../../Headers/Public/yoga/Yoga-umbrella.h"; sourceTree = "<group>"; };
+		D0104F57FF73C384837C9C75E21EFEAC /* YGEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGEnums.h; path = yoga/YGEnums.h; sourceTree = "<group>"; };
+		D1B754CA6B5C410EBF9635305E2FD37C /* Yoga.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Yoga.h; path = yoga/Yoga.h; sourceTree = "<group>"; };
+		D48D29B6764D8962F90C86DDA1B5E2F9 /* Pods-TestV12BankingApp-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestV12BankingApp-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D7CD020FFEF5C8CB0245E847912D9898 /* Pods-TestV12BankingApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestV12BankingApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA129C1A3C7EA10B0C4E2C6CE7709448 /* Utils.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Utils.cpp; path = yoga/Utils.cpp; sourceTree = "<group>"; };
+		DA31D55E19DFC92E33B77D7659D4DAF2 /* Pods-TestV12BankingApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestV12BankingApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5A524462019C56D30A318E47023D4E5 /* Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = yoga/Utils.h; sourceTree = "<group>"; };
+		E8219F28BB9F5BC8E2A5095DA599AFBD /* Pods-TestV12BankingApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestV12BankingApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E949194C7A4084D89CAF452182A5D37F /* libPods-TestV12BankingApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TestV12BankingApp-tvOS.a"; path = "libPods-TestV12BankingApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7397C7F31D665909B235B22BC969C5 /* Yoga-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Yoga-prefix.pch"; sourceTree = "<group>"; };
+		ED34F3E8026F78CCDAE5C00D01792D8F /* Pods-TestV12BankingApp-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestV12BankingApp-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		EF4390D14AB15CBD1017F97242BD604C /* Pods-TestV12BankingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestV12BankingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F857415828BDA7842B0905D204A415E8 /* YGConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGConfig.h; path = yoga/YGConfig.h; sourceTree = "<group>"; };
+		FDE9ADCEC25B78BDB2723F565574F5D4 /* Pods-TestV12BankingApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestV12BankingApp-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		120228E157920B2CD0DCEB839985223E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E056EF2555BF9DA2631EEF05C4C80D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2BBF1422EFF3777C6278C1E1D84A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4777BC0582891DF7F655D723DD8A399B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A083A0F26FA5608895FDDE303D721A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C44EF6431BA353ED1E1DA3707668F1 /* Pods-TestV12BankingApp */ = {
+			isa = PBXGroup;
+			children = (
+				E8219F28BB9F5BC8E2A5095DA599AFBD /* Pods-TestV12BankingApp-acknowledgements.markdown */,
+				D7CD020FFEF5C8CB0245E847912D9898 /* Pods-TestV12BankingApp-acknowledgements.plist */,
+				7DD86D77BCF6084D5BBD6916A19072C2 /* Pods-TestV12BankingApp-dummy.m */,
+				A6CFA28049990654F43BDD4980394C34 /* Pods-TestV12BankingApp-frameworks.sh */,
+				FDE9ADCEC25B78BDB2723F565574F5D4 /* Pods-TestV12BankingApp-resources.sh */,
+				83164942CB79F8D0B0C5B01E6DE06964 /* Pods-TestV12BankingApp.debug.xcconfig */,
+				036FAEA48F06F2CFF324983A2D48229D /* Pods-TestV12BankingApp.release.xcconfig */,
+			);
+			name = "Pods-TestV12BankingApp";
+			path = "Target Support Files/Pods-TestV12BankingApp";
+			sourceTree = "<group>";
+		};
+		02ACBEA26B37F23E3A83D42D0E139067 /* Yoga */ = {
+			isa = PBXGroup;
+			children = (
+				DA129C1A3C7EA10B0C4E2C6CE7709448 /* Utils.cpp */,
+				E5A524462019C56D30A318E47023D4E5 /* Utils.h */,
+				7822550994C4F48F9A7DDB7E0ABCB906 /* YGConfig.cpp */,
+				F857415828BDA7842B0905D204A415E8 /* YGConfig.h */,
+				AC4BC722E399FAADD725F72603556DB8 /* YGEnums.cpp */,
+				D0104F57FF73C384837C9C75E21EFEAC /* YGEnums.h */,
+				29E4391BDC3AD12BDD485D02FA5D6538 /* YGFloatOptional.cpp */,
+				893753E3D2E371D94B2BFD6039229009 /* YGFloatOptional.h */,
+				6D323FA0C8BCB031A9AA7D7D6E60DDF4 /* YGLayout.cpp */,
+				02AB3D4FDC1B2563263AAD185A49A666 /* YGLayout.h */,
+				632FC1682BF39F9720251E3E7695AAAD /* YGMacros.h */,
+				0B826F0C2516735209AD89E7FAEE83A2 /* YGNode.cpp */,
+				A8E4BB7EB4E41DBC2ADC82BA4BF5ED78 /* YGNode.h */,
+				22CEA28974ABD0D751C1149B704BD82F /* YGNodePrint.cpp */,
+				56D01B14F7D20491A83C39667DBAC04A /* YGNodePrint.h */,
+				1B35F40F1891805722FFEFEC13619DA2 /* YGStyle.cpp */,
+				5EA9B4C54EEA7F9413F2874BD6094CAA /* YGStyle.h */,
+				2ABE7926852EFE55EC74F2D50FDCB4A2 /* Yoga.cpp */,
+				D1B754CA6B5C410EBF9635305E2FD37C /* Yoga.h */,
+				C00918FB326BB93B6C8743164C03E1E5 /* Yoga-internal.h */,
+				DD7E62BFAA27DA40970931C51A05566E /* Support Files */,
+			);
+			name = Yoga;
+			path = Yoga;
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D7DFA4370F6AA512CFBED1426260CE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B909D4C70252B1F9D2835328F1568597 /* GoogleMaps.framework */,
+				15BEE7048A5CDD23A73B5490E8D34771 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F451F24CADCB740B0158A91F6F47551 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				738C708427A816F5FA16E5C68FD792DC /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		315DF36F488EA89429875FDC73FD50AF /* Pods-TestV12BankingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00A7B35CC871F789298B198AA4729FA5 /* Pods-TestV12BankingAppTests-acknowledgements.markdown */,
+				1C90A5A9E520B947A156B3C6232816CE /* Pods-TestV12BankingAppTests-acknowledgements.plist */,
+				96D6B9C297FA093C1BBF4C73C803D75F /* Pods-TestV12BankingAppTests-dummy.m */,
+				524B3A6E61884110E8223B380E23D05E /* Pods-TestV12BankingAppTests-frameworks.sh */,
+				79F7E5BB48C65FDC2904ED21E314DD8E /* Pods-TestV12BankingAppTests-resources.sh */,
+				8E0D1D8A4BDFB90371F39B2FD94664E4 /* Pods-TestV12BankingAppTests.debug.xcconfig */,
+				EF4390D14AB15CBD1017F97242BD604C /* Pods-TestV12BankingAppTests.release.xcconfig */,
+			);
+			name = "Pods-TestV12BankingAppTests";
+			path = "Target Support Files/Pods-TestV12BankingAppTests";
+			sourceTree = "<group>";
+		};
+		49C23A2176568A624D3C99A6EC268F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB685A3C4B277C9A6296FE6C87C63C9C /* libPods-TestV12BankingApp.a */,
+				E949194C7A4084D89CAF452182A5D37F /* libPods-TestV12BankingApp-tvOS.a */,
+				A3D4A76DBE08E1F5D502E4A0D3BE9BB8 /* libPods-TestV12BankingApp-tvOSTests.a */,
+				213C8218F491C56A0DCF752CE20724B7 /* libPods-TestV12BankingAppTests.a */,
+				3DE1235A7019D9316F33151709B26E65 /* libYoga.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A0D358F8D4BE6259BA84AB89079BDE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE95397E69B5EF1D3D1EEBFDBAB6A736 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		738C708427A816F5FA16E5C68FD792DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32C8BE299ED16CCCC485FCADC2473808 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				BB1D11B76B2D52DD05B5AD334F780D95 /* Pods */,
+				49C23A2176568A624D3C99A6EC268F63 /* Products */,
+				BA0A52C34EB87A182A12377F1AAA9B17 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81146E9786D3D8FD41376A63B2FEEEB2 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				2F451F24CADCB740B0158A91F6F47551 /* Base */,
+				C7C7C0ABC342636ECA51E6D6E90B0971 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		90B6072785332D90B1EF3600397A4B0E /* Pods-TestV12BankingApp-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				D48D29B6764D8962F90C86DDA1B5E2F9 /* Pods-TestV12BankingApp-tvOS-acknowledgements.markdown */,
+				56D244EB7B0921D821720BD6526B766F /* Pods-TestV12BankingApp-tvOS-acknowledgements.plist */,
+				A2A839BE38666D76AC443E507D999831 /* Pods-TestV12BankingApp-tvOS-dummy.m */,
+				5C4F85FB1672DDBD33AE22E245B87523 /* Pods-TestV12BankingApp-tvOS-frameworks.sh */,
+				160A69F1EDD1B8C19EF0A0A5C58DF553 /* Pods-TestV12BankingApp-tvOS-resources.sh */,
+				56E3C9E0F999BE16DCF2374200CF6ECC /* Pods-TestV12BankingApp-tvOS.debug.xcconfig */,
+				52EB14679C41B1624EBEF2F9E1B067DD /* Pods-TestV12BankingApp-tvOS.release.xcconfig */,
+			);
+			name = "Pods-TestV12BankingApp-tvOS";
+			path = "Target Support Files/Pods-TestV12BankingApp-tvOS";
+			sourceTree = "<group>";
+		};
+		9A3696FEA2AC65ECCF2A740C3BB231B2 /* Pods-TestV12BankingApp-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B45FD51BAE2198E92C2B0C320DCF9D7 /* Pods-TestV12BankingApp-tvOSTests-acknowledgements.markdown */,
+				40262BA9A2A97B61B0AB6EA811C2383D /* Pods-TestV12BankingApp-tvOSTests-acknowledgements.plist */,
+				6D205C32875D1ECD16852728BD5503C0 /* Pods-TestV12BankingApp-tvOSTests-dummy.m */,
+				ED34F3E8026F78CCDAE5C00D01792D8F /* Pods-TestV12BankingApp-tvOSTests-frameworks.sh */,
+				C4EDD999D148C1513B447020BD52E02A /* Pods-TestV12BankingApp-tvOSTests-resources.sh */,
+				2FE2B394E46C0830E79DED1F2E6B1548 /* Pods-TestV12BankingApp-tvOSTests.debug.xcconfig */,
+				DA31D55E19DFC92E33B77D7659D4DAF2 /* Pods-TestV12BankingApp-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-TestV12BankingApp-tvOSTests";
+			path = "Target Support Files/Pods-TestV12BankingApp-tvOSTests";
+			sourceTree = "<group>";
+		};
+		BA0A52C34EB87A182A12377F1AAA9B17 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00C44EF6431BA353ED1E1DA3707668F1 /* Pods-TestV12BankingApp */,
+				90B6072785332D90B1EF3600397A4B0E /* Pods-TestV12BankingApp-tvOS */,
+				9A3696FEA2AC65ECCF2A740C3BB231B2 /* Pods-TestV12BankingApp-tvOSTests */,
+				315DF36F488EA89429875FDC73FD50AF /* Pods-TestV12BankingAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BB1D11B76B2D52DD05B5AD334F780D95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81146E9786D3D8FD41376A63B2FEEEB2 /* GoogleMaps */,
+				02ACBEA26B37F23E3A83D42D0E139067 /* Yoga */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7C7C0ABC342636ECA51E6D6E90B0971 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				1D7DFA4370F6AA512CFBED1426260CE6 /* Frameworks */,
+				4A0D358F8D4BE6259BA84AB89079BDE4 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		DD7E62BFAA27DA40970931C51A05566E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86D8DA73762A69A56EC18FD90F889ACD /* Yoga.modulemap */,
+				075BBCB4B5DBD4D3951356ABDB61CFDA /* Yoga.xcconfig */,
+				17C778E2453798E37365AEE497893A85 /* Yoga-dummy.m */,
+				EC7397C7F31D665909B235B22BC969C5 /* Yoga-prefix.pch */,
+				C7066D2B5BCC9DFBE8326B199ECFD9EF /* Yoga-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Yoga";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		223FE34A85122C73CB53A755EA72BA42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC984C559277B5F79969A3056F80835D /* Utils.h in Headers */,
+				7BE9C9D33846F8AA7DB47D1FFB0B254B /* YGConfig.h in Headers */,
+				911E27DE4F6E3E12A8F8FBDC1AD08242 /* YGEnums.h in Headers */,
+				7E8A3DF94A7F950A5DB49784D6A525F5 /* YGFloatOptional.h in Headers */,
+				23975DB462A0A6B3E2AD8A107EB83BAB /* YGLayout.h in Headers */,
+				B275F70AF89B5701A2730E26AF51E884 /* YGMacros.h in Headers */,
+				88F933CFFF54BCEB7F761C6BA9532197 /* YGNode.h in Headers */,
+				4DFC5E1D10F1A77AF8D8B738EBEB51DC /* YGNodePrint.h in Headers */,
+				52DDC92BE0A3B8C9A8831D1859A79027 /* YGStyle.h in Headers */,
+				1C468CF218AE033AB381F644F11AFEFA /* Yoga-internal.h in Headers */,
+				B1323371BEC5CF7755F4E646A2FA777F /* Yoga-umbrella.h in Headers */,
+				03ABB0F849CCAF5946F7EAE0A569C794 /* Yoga.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2794CEEC54AF049EC900011A5C426DBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5533D1DCB1D13170EF1D0B83BA97CA0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CECBAE19EC300B78621999C861C59A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BBCCF8CD7CEDC5EFA2EBFEA745DA65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		109F167C4C2A30C04E7D11FA4DCC133D /* Pods-TestV12BankingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F377B7B32DB9C30A5A7437006A7BCD6 /* Build configuration list for PBXNativeTarget "Pods-TestV12BankingAppTests" */;
+			buildPhases = (
+				2794CEEC54AF049EC900011A5C426DBD /* Headers */,
+				06C17F84DD1E08A897A6911CBE69AC6F /* Sources */,
+				120228E157920B2CD0DCEB839985223E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C8B486101E28CA711986C4A1513CA03 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestV12BankingAppTests";
+			productName = "Pods-TestV12BankingAppTests";
+			productReference = 213C8218F491C56A0DCF752CE20724B7 /* libPods-TestV12BankingAppTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6D6B676227533961FDA01CD9384AF0A9 /* Pods-TestV12BankingApp-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7660966CE6C56978C7F98F8DF8BF13 /* Build configuration list for PBXNativeTarget "Pods-TestV12BankingApp-tvOS" */;
+			buildPhases = (
+				A3BBCCF8CD7CEDC5EFA2EBFEA745DA65 /* Headers */,
+				6C2C639CC611B105A139C4F1F4B04AA1 /* Sources */,
+				4777BC0582891DF7F655D723DD8A399B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TestV12BankingApp-tvOS";
+			productName = "Pods-TestV12BankingApp-tvOS";
+			productReference = E949194C7A4084D89CAF452182A5D37F /* libPods-TestV12BankingApp-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7571A13D1F392D9643D7E558306D5254 /* Pods-TestV12BankingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032BB3362497A8D384F32A082BFB767E /* Build configuration list for PBXNativeTarget "Pods-TestV12BankingApp" */;
+			buildPhases = (
+				5533D1DCB1D13170EF1D0B83BA97CA0F /* Headers */,
+				45C1968AB2AC83D75AFEB0BE6D69C92C /* Sources */,
+				15E056EF2555BF9DA2631EEF05C4C80D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CA8EEB668B015C9A0BEBB453D4CCCE6 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestV12BankingApp";
+			productName = "Pods-TestV12BankingApp";
+			productReference = AB685A3C4B277C9A6296FE6C87C63C9C /* libPods-TestV12BankingApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7D857B67A1E0394C94E1A5EEBF0720C4 /* Pods-TestV12BankingApp-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0D75F43A4A6D579202D9D4E34854C43 /* Build configuration list for PBXNativeTarget "Pods-TestV12BankingApp-tvOSTests" */;
+			buildPhases = (
+				7CECBAE19EC300B78621999C861C59A7 /* Headers */,
+				D6A06FA0D2DF436EC2226B6ED9807572 /* Sources */,
+				2E2BBF1422EFF3777C6278C1E1D84A97 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5EEF0D42087EFFE868A097C1B84C6AD /* PBXTargetDependency */,
+			);
+			name = "Pods-TestV12BankingApp-tvOSTests";
+			productName = "Pods-TestV12BankingApp-tvOSTests";
+			productReference = A3D4A76DBE08E1F5D502E4A0D3BE9BB8 /* libPods-TestV12BankingApp-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FDC8842A682901C87D0FD0E15B06D90F /* Yoga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817EED151634D8FF5C000CE911517D58 /* Build configuration list for PBXNativeTarget "Yoga" */;
+			buildPhases = (
+				223FE34A85122C73CB53A755EA72BA42 /* Headers */,
+				B0EB77D5F94D03DE146AD2CC82978DFF /* Sources */,
+				D6A083A0F26FA5608895FDDE303D721A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yoga;
+			productName = Yoga;
+			productReference = 3DE1235A7019D9316F33151709B26E65 /* libYoga.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 49C23A2176568A624D3C99A6EC268F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7571A13D1F392D9643D7E558306D5254 /* Pods-TestV12BankingApp */,
+				6D6B676227533961FDA01CD9384AF0A9 /* Pods-TestV12BankingApp-tvOS */,
+				7D857B67A1E0394C94E1A5EEBF0720C4 /* Pods-TestV12BankingApp-tvOSTests */,
+				109F167C4C2A30C04E7D11FA4DCC133D /* Pods-TestV12BankingAppTests */,
+				FDC8842A682901C87D0FD0E15B06D90F /* Yoga */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06C17F84DD1E08A897A6911CBE69AC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041388C007A09DC8E8067C16CB9FF22D /* Pods-TestV12BankingAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C1968AB2AC83D75AFEB0BE6D69C92C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19D5C1B4A074846F78DD1BB1EA199D3 /* Pods-TestV12BankingApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C2C639CC611B105A139C4F1F4B04AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334BFD86072FF0E860B539EE9B5DB42D /* Pods-TestV12BankingApp-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EB77D5F94D03DE146AD2CC82978DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3934F16AD1D615AB3ACAA54181907B7 /* Utils.cpp in Sources */,
+				86010F566C09D883643E2EC8A03D3E18 /* YGConfig.cpp in Sources */,
+				D7B12C3DEA9CCA5A82BB0BFD85292A2D /* YGEnums.cpp in Sources */,
+				A32CB5D4B5CC2F13A579F8CDE0C7E7AE /* YGFloatOptional.cpp in Sources */,
+				EB480FA3B49ACFEFB5050019C0AB27D5 /* YGLayout.cpp in Sources */,
+				C435996A79C6DDADF758C9CBBC1DD31C /* YGNode.cpp in Sources */,
+				0B72776B9FF071B49A98574D92835E4A /* YGNodePrint.cpp in Sources */,
+				6492C26582D138130CCB53981FC860F4 /* YGStyle.cpp in Sources */,
+				BB1F9D8641D214EC1CCFB476FEFA7ACB /* Yoga-dummy.m in Sources */,
+				5EFDEDA8B76B002B555B4B94726BED1A /* Yoga.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A06FA0D2DF436EC2226B6ED9807572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5662FCAAB8668734DA68776303E9DE /* Pods-TestV12BankingApp-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C8B486101E28CA711986C4A1513CA03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TestV12BankingApp";
+			target = 7571A13D1F392D9643D7E558306D5254 /* Pods-TestV12BankingApp */;
+			targetProxy = AC9FAD0786151B7D7151AD1D107DC5B8 /* PBXContainerItemProxy */;
+		};
+		1CA8EEB668B015C9A0BEBB453D4CCCE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Yoga;
+			target = FDC8842A682901C87D0FD0E15B06D90F /* Yoga */;
+			targetProxy = 74367ABD211DF9DE698FC5169951BC82 /* PBXContainerItemProxy */;
+		};
+		C5EEF0D42087EFFE868A097C1B84C6AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TestV12BankingApp-tvOS";
+			target = 6D6B676227533961FDA01CD9384AF0A9 /* Pods-TestV12BankingApp-tvOS */;
+			targetProxy = DA5E0D708AAF590627088B5E6C6418A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BE2F28D51402E2E83B8C9450054715E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075BBCB4B5DBD4D3951356ABDB61CFDA /* Yoga.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Yoga/Yoga-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/yoga/Yoga.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = yoga;
+				PRODUCT_NAME = Yoga;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30C1E37371B02F16A96509E475F47E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52EB14679C41B1624EBEF2F9E1B067DD /* Pods-TestV12BankingApp-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		766124771087B5A79095795E7888E8C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0D1D8A4BDFB90371F39B2FD94664E4 /* Pods-TestV12BankingAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D0E4036DB448EC5EAF48674E7025E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E3C9E0F999BE16DCF2374200CF6ECC /* Pods-TestV12BankingApp-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		842128BB2951937350B3AABC7C85B3E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075BBCB4B5DBD4D3951356ABDB61CFDA /* Yoga.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Yoga/Yoga-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/yoga/Yoga.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = yoga;
+				PRODUCT_NAME = Yoga;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AE86E6F9D6F739D92659D2A8724FDE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA31D55E19DFC92E33B77D7659D4DAF2 /* Pods-TestV12BankingApp-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D65AB71F89D861FFF2057DA224FD4FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF4390D14AB15CBD1017F97242BD604C /* Pods-TestV12BankingAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB48309E884004A4C46D3728C655CA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		E15A7E3A689DE318D27B4B0C0FDF0B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		E4D38F5D646CBAA0F31AF4E264C5A915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036FAEA48F06F2CFF324983A2D48229D /* Pods-TestV12BankingApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5711FA6A8F36E34420DA0C6DA54B418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE2B394E46C0830E79DED1F2E6B1548 /* Pods-TestV12BankingApp-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		F3D2772ACE2F8AE7927330FC68B72A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83164942CB79F8D0B0C5B01E6DE06964 /* Pods-TestV12BankingApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032BB3362497A8D384F32A082BFB767E /* Build configuration list for PBXNativeTarget "Pods-TestV12BankingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D2772ACE2F8AE7927330FC68B72A3A /* Debug */,
+				E4D38F5D646CBAA0F31AF4E264C5A915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15A7E3A689DE318D27B4B0C0FDF0B25 /* Debug */,
+				DB48309E884004A4C46D3728C655CA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F377B7B32DB9C30A5A7437006A7BCD6 /* Build configuration list for PBXNativeTarget "Pods-TestV12BankingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				766124771087B5A79095795E7888E8C6 /* Debug */,
+				D65AB71F89D861FFF2057DA224FD4FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7660966CE6C56978C7F98F8DF8BF13 /* Build configuration list for PBXNativeTarget "Pods-TestV12BankingApp-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0E4036DB448EC5EAF48674E7025E3E /* Debug */,
+				30C1E37371B02F16A96509E475F47E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		817EED151634D8FF5C000CE911517D58 /* Build configuration list for PBXNativeTarget "Yoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE2F28D51402E2E83B8C9450054715E /* Debug */,
+				842128BB2951937350B3AABC7C85B3E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0D75F43A4A6D579202D9D4E34854C43 /* Build configuration list for PBXNativeTarget "Pods-TestV12BankingApp-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5711FA6A8F36E34420DA0C6DA54B418 /* Debug */,
+				8AE86E6F9D6F739D92659D2A8724FDE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

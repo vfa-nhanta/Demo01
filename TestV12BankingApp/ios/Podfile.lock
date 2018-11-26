@@ -1,0 +1,24 @@
+PODS:
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - Yoga (1.9.0)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - Yoga
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleMaps
+    - Yoga
+
+SPEC CHECKSUMS:
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  Yoga: aaae8abea68951f60bee05f6277d3eed90bb91bb
+
+PODFILE CHECKSUM: 3790b5b87f4e9d0899af6a5792ca218896b31172
+
+COCOAPODS: 1.5.3

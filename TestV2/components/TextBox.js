@@ -11,8 +11,8 @@ constructor(props){
     }
 }
 componentWillMount(){
-    this.keyboardDidShowListener = Keyboard.addListener('keyboardDidShow', () => this.setState(() => {return {typedText: 'Keyboard freaking showed!!!!'}}));
-    this.keyboardDidHideListener = Keyboard.addListener('keyboardDidHide', () => this.setState(() => {return {typedText: 'Keyboard freaking hid!!!'}}));
+    this.keyboardDidShowListener = Keyboard.addListener('keyboardDidShow', () => this.setState(() => {return {typedText: 'Keyboard showed!!!!'}}));
+    this.keyboardDidHideListener = Keyboard.addListener('keyboardDidHide', () => this.setState(() => {return {typedText: 'Keyboard hid!!!'}}));
 }
 
 ComponentDidMount(){
@@ -53,7 +53,7 @@ ComponentDidMount(){
                     marginTop: 50
                 }}
                 keyboardType='default'
-                placeholder="Tell me a secret story"
+                placeholder="Tell me a story"
                 secureTextEntry={true}
             />
             <TextInput 

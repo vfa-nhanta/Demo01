@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TestV12BankingApp' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for TestV12BankingApp
+  pod 'Yoga'
+  pod 'GoogleMaps'
+  target 'TestV12BankingAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'TestV12BankingApp-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for TestV12BankingApp-tvOS
+
+  target 'TestV12BankingApp-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

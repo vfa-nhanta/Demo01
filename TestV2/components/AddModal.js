@@ -97,18 +97,12 @@ export default class AddModal extends Component {
                         const insertNewBall = {
                             key: newKey,
                             item: this.state.newBall,
-                            // imageURL: "https://5.imimg.com/data5/NW/CE/MY-28899737/small-plastic-ball-500x500.jpg",
+                            imageURL: "https://5.imimg.com/data5/NW/CE/MY-28899737/small-plastic-ball-500x500.jpg",
                             description: this.state.newDescription,
                         };
-                        // flatListData.push(insertNewBall);
-                        // this._onPressRefresh(newKey);
-                        insertDataToServer(newBall).then((result){
-                            if (result === 'ok') => {
-                                this.props.parentFlatList();
-                            }
-                        });
+                        flatListData.push(insertNewBall);
+                        this._onPressRefresh(newKey);
                         this.refs.myModal.close();
-
                     }}
                 >Save
                 </Button>

@@ -1,0 +1,5 @@
+export const USER_LOGIN = 'USER_LOGIN';
+export const USER_LOGOUT = 'USER_LOGOUT';
+export const SHOW_TRANSFER_SCREEN = 'SHOW_TRANSFER_SCREEN';
+export const MONEY_CHEAT = 'MONEY_CHEAT';
+export const SPEND_MONEY = 'SPEND_MONEY';
