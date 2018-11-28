@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import {
   View,
   Text,
+  Animated,
   TextInput,
   ImageBackground,
   TouchableOpacity,
@@ -9,9 +10,11 @@ import {
   Image,
   ScrollView,
   StyleSheet,
-  FlatList
+  FlatList,
+  Dimensions
 } from "react-native";
-import { connect } from 'react-redux';
+import { connect } from "react-redux";
+// import MapView from "react-native-maps";
 
 export class AtmData extends Component {
   render() {
@@ -25,17 +28,57 @@ export class AtmData extends Component {
   }
 }
 
+const screenDimenstion = Dimensions.get("window");
+
+const CARD_HEIGHT = screenDimenstion.height / 4;
+const CARD_WIDTH = CARD_HEIGHT - 50;
+
 export class MapScreen extends Component {
   constructor(props) {
     super(props);
-    this.state = {}
+    this.state = {
+      region: {
+        latitude: 45.52220671242907,
+        longitude: -122.6653281029795,
+        latitudeDelta: 0.04864195044303443,
+        longitudeDelta: 0.040142817690068
+      }
+    };
   }
   goBackHandler = () => {
     this.props.navigation.goBack();
   };
   componentWillMount() {
-    console.log(this.props);
+    this.index = 0;
+    this.animation = new Animated.Value(0);
   }
+  // mapMarkerPopulator() {
+  //   this.props.atmLocation.map((marker, index) => {
+  //     return (
+  //       <MapView.Marker key={index} coordinate={this.props.atmLocation.coordinate}>
+  //         <Animated.View style={styles.markerWrapper}>
+  //           <Animated.View style={styles.ring} />
+  //           <View style={styles.markers} />
+  //         </Animated.View>
+  //       </MapView.Marker>
+  //     );
+  //   });
+  // }
+
+  // mapMarkerContentPopulator() {
+  //   this.props.atmLocation.map((marker, index) => (
+  //     <View style={styles.card} key={index}>
+  //       <Image 
+  //         source={marker.image}
+  //         style={styles.cardImage}
+  //         resizeMode="cover"
+  //       />
+  //       <View style={styles.textContent}>
+  //       </View>
+  //     </View>
+  //   ))
+  // }
+
   render() {
     return (
       <View style={styles.container}>
@@ -50,6 +93,36 @@ export class MapScreen extends Component {
             <Text style={styles.headerText}>ATM FINDER</Text>
           </View>
         </View>
+        {/* <MapView
+          ref={map => (this.map = map)}
+          initialRegion={this.state.region}
+          style={styles.container}
+        />
+        {this.mapMarkerPopulator()}
+        <Animated.ScrollView
+          horizontal
+          scrollEvenThrottle={1}
+          showsHorizontalScrollIndicator={false}
+          snapToInterval={CARD_WIDTH}
+          onScroll = {Animated.event(
+            [
+              {
+                nativeEvent: {
+                  contentOffset: {
+                    x: this.animation,
+                  }
+                }
+              }
+            ],
+            {
+              useNativeDriver: true
+            }
+          )}
+          style={styles.scrollView}
+          contentContainerStyle={StyleSheet.endPadding}
+        >
+
+        </Animated.ScrollView> */}
         <ScrollView 
         contentContainerStyle={{alignItems: 'center'}}
         style={{ flex: 1, paddingTop: 30 }}>
@@ -76,9 +149,8 @@ export class MapScreen extends Component {
 }
 
 const mapStateToProps = state => {
-  console.log(state);
   return state;
-}
+};
 
 export default connect(mapStateToProps)(MapScreen);
 
@@ -109,8 +181,8 @@ const styles = StyleSheet.create({
   },
   mainContent: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
     shadowOffset: {
       width: 3,
       height: 3
@@ -122,30 +194,30 @@ const styles = StyleSheet.create({
     width: 300,
     height: 300,
     borderWidth: 3,
-    borderColor: 'white',
+    borderColor: "white"
   },
   atmList: {
-    marginTop: 20,
+    marginTop: 20
   },
   listTitle: {
-    fontSize: 20, 
-    fontFamily: 'Courier New',
-    textAlign: 'center'
+    fontSize: 20,
+    fontFamily: "Courier New",
+    textAlign: "center"
   },
   flContainer: {
     flex: 1,
-    marginTop: 10,
+    marginTop: 10
   },
   flBranch: {
     fontSize: 20,
-    fontFamily: 'Courier New',
+    fontFamily: "Courier New",
     paddingLeft: 10,
-    textAlign: 'center'
+    textAlign: "center"
   },
   flDetail: {
     fontSize: 14,
-    fontFamily: 'Courier New',
-    color: 'gray',
-    paddingHorizontal: 20,
+    fontFamily: "Courier New",
+    color: "gray",
+    paddingHorizontal: 20
   }
 });

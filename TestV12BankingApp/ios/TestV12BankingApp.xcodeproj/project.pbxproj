@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -12,27 +13,7 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* TestV12BankingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TestV12BankingAppTests.m */; };
-		1072B68D21A68BB0000519C1 /* AIRDummyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B63C21A68BAF000519C1 /* AIRDummyView.m */; };
-		1072B68E21A68BB0000519C1 /* AIRGoogleMapUrlTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B63E21A68BAF000519C1 /* AIRGoogleMapUrlTile.m */; };
-		1072B68F21A68BB0000519C1 /* AIRGoogleMapPolygonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B64121A68BAF000519C1 /* AIRGoogleMapPolygonManager.m */; };
-		1072B69021A68BB0000519C1 /* AIRGoogleMapMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B64421A68BAF000519C1 /* AIRGoogleMapMarker.m */; };
-		1072B69121A68BB0000519C1 /* AIRGMSPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B64821A68BAF000519C1 /* AIRGMSPolygon.m */; };
-		1072B69221A68BB0000519C1 /* AIRGoogleMapURLTileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B64921A68BAF000519C1 /* AIRGoogleMapURLTileManager.m */; };
-		1072B69321A68BB0000519C1 /* AIRGoogleMapCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B64A21A68BAF000519C1 /* AIRGoogleMapCircle.m */; };
-		1072B69421A68BB0000519C1 /* AIRGoogleMapCircleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B64F21A68BAF000519C1 /* AIRGoogleMapCircleManager.m */; };
-		1072B69521A68BB0000519C1 /* AIRGoogleMapCalloutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B65121A68BAF000519C1 /* AIRGoogleMapCalloutManager.m */; };
-		1072B69621A68BB0000519C1 /* AIRGoogleMapMarkerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B65221A68BAF000519C1 /* AIRGoogleMapMarkerManager.m */; };
-		1072B69721A68BB0000519C1 /* AIRGoogleMapPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B65421A68BAF000519C1 /* AIRGoogleMapPolyline.m */; };
-		1072B69821A68BB0000519C1 /* AIRGoogleMapOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B65721A68BAF000519C1 /* AIRGoogleMapOverlay.m */; };
-		1072B69921A68BB0000519C1 /* AIRGMSPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B65821A68BAF000519C1 /* AIRGMSPolyline.m */; };
-		1072B69A21A68BB0000519C1 /* AIRGoogleMapPolylineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B65921A68BAF000519C1 /* AIRGoogleMapPolylineManager.m */; };
-		1072B69B21A68BB0000519C1 /* AIRGoogleMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B65A21A68BAF000519C1 /* AIRGoogleMapManager.m */; };
-		1072B69C21A68BB0000519C1 /* RCTConvert+GMSMapViewType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B65D21A68BAF000519C1 /* RCTConvert+GMSMapViewType.m */; };
-		1072B69D21A68BB0000519C1 /* AIRGoogleMapCallout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B65E21A68BAF000519C1 /* AIRGoogleMapCallout.m */; };
-		1072B69E21A68BB0000519C1 /* AIRGoogleMapOverlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B65F21A68BB0000519C1 /* AIRGoogleMapOverlayManager.m */; };
-		1072B69F21A68BB0000519C1 /* AIRGoogleMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B66021A68BB0000519C1 /* AIRGoogleMap.m */; };
-		1072B6A021A68BB0000519C1 /* AIRGoogleMapPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B66421A68BB0000519C1 /* AIRGoogleMapPolygon.m */; };
-		1072B6A121A68BB0000519C1 /* AIRGMSMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072B66521A68BB0000519C1 /* AIRGMSMarker.m */; };
+		1012DE3721AE32B200870B7C /* libreact-native-maps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1012DE3621AE32B200870B7C /* libreact-native-maps.a */; };
 		11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
@@ -57,12 +38,12 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* TestV12BankingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TestV12BankingAppTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
-		46272E24468C67BC74BD103F /* libPods-TestV12BankingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B0D8894BE4C913B7A68A6D /* libPods-TestV12BankingApp.a */; };
-		490E282A3FDB33778C41803E /* libPods-TestV12BankingAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F5BEEA162D9FAC4B9E9E19 /* libPods-TestV12BankingAppTests.a */; };
+		3F54A68944AA916ACD7F2122 /* libPods-TestV12BankingAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2231D4287B3F5ECE537D98F /* libPods-TestV12BankingAppTests.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		83A7C742467236BA302CDD51 /* libPods-TestV12BankingApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F386FADF802A5A58E812310 /* libPods-TestV12BankingApp-tvOS.a */; };
+		8E0B96D14F355ECDB4677A46 /* libPods-TestV12BankingApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3AD2D86522497E845BE515 /* libPods-TestV12BankingApp-tvOSTests.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		FA77A94EAEAE7036AB29C193 /* libPods-TestV12BankingApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE46837A16A2DC0462A6AB9 /* libPods-TestV12BankingApp-tvOSTests.a */; };
+		B784380F66F8B26E3BF0218B /* libPods-TestV12BankingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D469F1C8D96C5503622019 /* libPods-TestV12BankingApp.a */; };
+		E979D8FFF5D05CBC19DCF944 /* libPods-TestV12BankingApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BDCD3E0699BE5FD9DD8465 /* libPods-TestV12BankingApp-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -359,48 +340,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* TestV12BankingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestV12BankingAppTests.m; sourceTree = "<group>"; };
 		0F4D877E6DA74258BAA15703 /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGestureHandler.xcodeproj; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; };
-		1072B63C21A68BAF000519C1 /* AIRDummyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRDummyView.m; sourceTree = "<group>"; };
-		1072B63D21A68BAF000519C1 /* AIRGoogleMapPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapPolyline.h; sourceTree = "<group>"; };
-		1072B63E21A68BAF000519C1 /* AIRGoogleMapUrlTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapUrlTile.m; sourceTree = "<group>"; };
-		1072B63F21A68BAF000519C1 /* AIRGoogleMapMarkerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapMarkerManager.h; sourceTree = "<group>"; };
-		1072B64021A68BAF000519C1 /* AIRGoogleMapCalloutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapCalloutManager.h; sourceTree = "<group>"; };
-		1072B64121A68BAF000519C1 /* AIRGoogleMapPolygonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapPolygonManager.m; sourceTree = "<group>"; };
-		1072B64221A68BAF000519C1 /* RCTConvert+GMSMapViewType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+GMSMapViewType.h"; sourceTree = "<group>"; };
-		1072B64321A68BAF000519C1 /* AIRGoogleMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapManager.h; sourceTree = "<group>"; };
-		1072B64421A68BAF000519C1 /* AIRGoogleMapMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapMarker.m; sourceTree = "<group>"; };
-		1072B64521A68BAF000519C1 /* AIRGMSPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGMSPolyline.h; sourceTree = "<group>"; };
-		1072B64621A68BAF000519C1 /* AIRGoogleMapPolylineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapPolylineManager.h; sourceTree = "<group>"; };
-		1072B64721A68BAF000519C1 /* AIRGoogleMapOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapOverlay.h; sourceTree = "<group>"; };
-		1072B64821A68BAF000519C1 /* AIRGMSPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGMSPolygon.m; sourceTree = "<group>"; };
-		1072B64921A68BAF000519C1 /* AIRGoogleMapURLTileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapURLTileManager.m; sourceTree = "<group>"; };
-		1072B64A21A68BAF000519C1 /* AIRGoogleMapCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapCircle.m; sourceTree = "<group>"; };
-		1072B64B21A68BAF000519C1 /* AIRGoogleMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMap.h; sourceTree = "<group>"; };
-		1072B64C21A68BAF000519C1 /* AIRGoogleMapOverlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapOverlayManager.h; sourceTree = "<group>"; };
-		1072B64D21A68BAF000519C1 /* AIRGoogleMapCallout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapCallout.h; sourceTree = "<group>"; };
-		1072B64E21A68BAF000519C1 /* AIRGMSMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGMSMarker.h; sourceTree = "<group>"; };
-		1072B64F21A68BAF000519C1 /* AIRGoogleMapCircleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapCircleManager.m; sourceTree = "<group>"; };
-		1072B65021A68BAF000519C1 /* AIRGoogleMapPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapPolygon.h; sourceTree = "<group>"; };
-		1072B65121A68BAF000519C1 /* AIRGoogleMapCalloutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapCalloutManager.m; sourceTree = "<group>"; };
-		1072B65221A68BAF000519C1 /* AIRGoogleMapMarkerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapMarkerManager.m; sourceTree = "<group>"; };
-		1072B65321A68BAF000519C1 /* AIRGoogleMapUrlTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapUrlTile.h; sourceTree = "<group>"; };
-		1072B65421A68BAF000519C1 /* AIRGoogleMapPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapPolyline.m; sourceTree = "<group>"; };
-		1072B65521A68BAF000519C1 /* AIRDummyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRDummyView.h; sourceTree = "<group>"; };
-		1072B65621A68BAF000519C1 /* AIRGMSPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGMSPolygon.h; sourceTree = "<group>"; };
-		1072B65721A68BAF000519C1 /* AIRGoogleMapOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapOverlay.m; sourceTree = "<group>"; };
-		1072B65821A68BAF000519C1 /* AIRGMSPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGMSPolyline.m; sourceTree = "<group>"; };
-		1072B65921A68BAF000519C1 /* AIRGoogleMapPolylineManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapPolylineManager.m; sourceTree = "<group>"; };
-		1072B65A21A68BAF000519C1 /* AIRGoogleMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapManager.m; sourceTree = "<group>"; };
-		1072B65B21A68BAF000519C1 /* AIRGoogleMapMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapMarker.h; sourceTree = "<group>"; };
-		1072B65C21A68BAF000519C1 /* AIRGoogleMapPolygonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapPolygonManager.h; sourceTree = "<group>"; };
-		1072B65D21A68BAF000519C1 /* RCTConvert+GMSMapViewType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+GMSMapViewType.m"; sourceTree = "<group>"; };
-		1072B65E21A68BAF000519C1 /* AIRGoogleMapCallout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapCallout.m; sourceTree = "<group>"; };
-		1072B65F21A68BB0000519C1 /* AIRGoogleMapOverlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapOverlayManager.m; sourceTree = "<group>"; };
-		1072B66021A68BB0000519C1 /* AIRGoogleMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMap.m; sourceTree = "<group>"; };
-		1072B66121A68BB0000519C1 /* AIRGoogleMapCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapCircle.h; sourceTree = "<group>"; };
-		1072B66221A68BB0000519C1 /* AIRGoogleMapUrlTileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapUrlTileManager.h; sourceTree = "<group>"; };
-		1072B66321A68BB0000519C1 /* AIRGoogleMapCircleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapCircleManager.h; sourceTree = "<group>"; };
-		1072B66421A68BB0000519C1 /* AIRGoogleMapPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapPolygon.m; sourceTree = "<group>"; };
-		1072B66521A68BB0000519C1 /* AIRGMSMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGMSMarker.m; sourceTree = "<group>"; };
+		1012DE3621AE32B200870B7C /* libreact-native-maps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-maps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* TestV12BankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestV12BankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -411,26 +351,26 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TestV12BankingApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TestV12BankingApp/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		18A3F856A4CF49D17B3ED436 /* Pods-TestV12BankingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestV12BankingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestV12BankingApp/Pods-TestV12BankingApp.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* TestV12BankingApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestV12BankingApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* TestV12BankingApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestV12BankingApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DE7F43D2CA633B04A927F31 /* Pods-TestV12BankingApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestV12BankingApp-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestV12BankingApp-tvOSTests/Pods-TestV12BankingApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		3DE46837A16A2DC0462A6AB9 /* libPods-TestV12BankingApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestV12BankingApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D14A7DCD772DCFC04489B0E /* Pods-TestV12BankingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestV12BankingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestV12BankingApp/Pods-TestV12BankingApp.debug.xcconfig"; sourceTree = "<group>"; };
-		4F386FADF802A5A58E812310 /* libPods-TestV12BankingApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestV12BankingApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		58926A032CE1CCAB7B898668 /* Pods-TestV12BankingApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestV12BankingApp-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestV12BankingApp-tvOS/Pods-TestV12BankingApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		2FD0B591D4F186B6E349F277 /* Pods-TestV12BankingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestV12BankingAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestV12BankingAppTests/Pods-TestV12BankingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39BDCD3E0699BE5FD9DD8465 /* libPods-TestV12BankingApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestV12BankingApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D469F1C8D96C5503622019 /* libPods-TestV12BankingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestV12BankingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC766436E061123847BBFC5 /* Pods-TestV12BankingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestV12BankingAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestV12BankingAppTests/Pods-TestV12BankingAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
-		61F5BEEA162D9FAC4B9E9E19 /* libPods-TestV12BankingAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestV12BankingAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		73703812CCBBBEA034E801D2 /* Pods-TestV12BankingApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestV12BankingApp-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestV12BankingApp-tvOSTests/Pods-TestV12BankingApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D363A4BC8706E78D2DCAD92 /* Pods-TestV12BankingApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestV12BankingApp-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestV12BankingApp-tvOSTests/Pods-TestV12BankingApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		8847AD6EB76A536EDD117010 /* Pods-TestV12BankingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestV12BankingAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestV12BankingAppTests/Pods-TestV12BankingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A4B12351B1BEF46BF1D8822 /* Pods-TestV12BankingApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestV12BankingApp-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestV12BankingApp-tvOSTests/Pods-TestV12BankingApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		944F670A66634E8EB7D3973C /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = "<group>"; };
-		9BD77BFB7540CF87A73FEA06 /* Pods-TestV12BankingApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestV12BankingApp-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestV12BankingApp-tvOS/Pods-TestV12BankingApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		ABFBA06C7EF545E822649B16 /* Pods-TestV12BankingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestV12BankingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestV12BankingApp/Pods-TestV12BankingApp.release.xcconfig"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		B1A0BB9791F2E05FD8F8512E /* Pods-TestV12BankingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestV12BankingAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestV12BankingAppTests/Pods-TestV12BankingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D5B0D8894BE4C913B7A68A6D /* libPods-TestV12BankingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestV12BankingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3AD2D86522497E845BE515 /* libPods-TestV12BankingApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestV12BankingApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F02FD50A91B6D62F80941B /* Pods-TestV12BankingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestV12BankingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestV12BankingApp/Pods-TestV12BankingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CE42FD5EAABF9C2906E3B5DF /* Pods-TestV12BankingApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestV12BankingApp-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestV12BankingApp-tvOS/Pods-TestV12BankingApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		D2231D4287B3F5ECE537D98F /* libPods-TestV12BankingAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestV12BankingAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60DB44D18D99134CC78A66F /* Pods-TestV12BankingApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestV12BankingApp-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestV12BankingApp-tvOS/Pods-TestV12BankingApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -439,7 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
-				490E282A3FDB33778C41803E /* libPods-TestV12BankingAppTests.a in Frameworks */,
+				3F54A68944AA916ACD7F2122 /* libPods-TestV12BankingAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +387,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1012DE3721AE32B200870B7C /* libreact-native-maps.a in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -460,7 +401,7 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				20411A1FD9764516A929F710 /* libRNGestureHandler.a in Frameworks */,
-				46272E24468C67BC74BD103F /* libPods-TestV12BankingApp.a in Frameworks */,
+				B784380F66F8B26E3BF0218B /* libPods-TestV12BankingApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,7 +417,7 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
-				83A7C742467236BA302CDD51 /* libPods-TestV12BankingApp-tvOS.a in Frameworks */,
+				E979D8FFF5D05CBC19DCF944 /* libPods-TestV12BankingApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,7 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */,
-				FA77A94EAEAE7036AB29C193 /* libPods-TestV12BankingApp-tvOSTests.a in Frameworks */,
+				8E0B96D14F355ECDB4677A46 /* libPods-TestV12BankingApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,7 +496,6 @@
 			isa = PBXGroup;
 			children = (
 				944F670A66634E8EB7D3973C /* libRNGestureHandler.a */,
-				8C3743B0686D465DBDD0E3EB /* libAirMaps.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -566,56 +506,6 @@
 				1072B5E621A6898F000519C1 /* libRNGestureHandler.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1072B63B21A68BAF000519C1 /* AirGoogleMaps */ = {
-			isa = PBXGroup;
-			children = (
-				1072B63C21A68BAF000519C1 /* AIRDummyView.m */,
-				1072B63D21A68BAF000519C1 /* AIRGoogleMapPolyline.h */,
-				1072B63E21A68BAF000519C1 /* AIRGoogleMapUrlTile.m */,
-				1072B63F21A68BAF000519C1 /* AIRGoogleMapMarkerManager.h */,
-				1072B64021A68BAF000519C1 /* AIRGoogleMapCalloutManager.h */,
-				1072B64121A68BAF000519C1 /* AIRGoogleMapPolygonManager.m */,
-				1072B64221A68BAF000519C1 /* RCTConvert+GMSMapViewType.h */,
-				1072B64321A68BAF000519C1 /* AIRGoogleMapManager.h */,
-				1072B64421A68BAF000519C1 /* AIRGoogleMapMarker.m */,
-				1072B64521A68BAF000519C1 /* AIRGMSPolyline.h */,
-				1072B64621A68BAF000519C1 /* AIRGoogleMapPolylineManager.h */,
-				1072B64721A68BAF000519C1 /* AIRGoogleMapOverlay.h */,
-				1072B64821A68BAF000519C1 /* AIRGMSPolygon.m */,
-				1072B64921A68BAF000519C1 /* AIRGoogleMapURLTileManager.m */,
-				1072B64A21A68BAF000519C1 /* AIRGoogleMapCircle.m */,
-				1072B64B21A68BAF000519C1 /* AIRGoogleMap.h */,
-				1072B64C21A68BAF000519C1 /* AIRGoogleMapOverlayManager.h */,
-				1072B64D21A68BAF000519C1 /* AIRGoogleMapCallout.h */,
-				1072B64E21A68BAF000519C1 /* AIRGMSMarker.h */,
-				1072B64F21A68BAF000519C1 /* AIRGoogleMapCircleManager.m */,
-				1072B65021A68BAF000519C1 /* AIRGoogleMapPolygon.h */,
-				1072B65121A68BAF000519C1 /* AIRGoogleMapCalloutManager.m */,
-				1072B65221A68BAF000519C1 /* AIRGoogleMapMarkerManager.m */,
-				1072B65321A68BAF000519C1 /* AIRGoogleMapUrlTile.h */,
-				1072B65421A68BAF000519C1 /* AIRGoogleMapPolyline.m */,
-				1072B65521A68BAF000519C1 /* AIRDummyView.h */,
-				1072B65621A68BAF000519C1 /* AIRGMSPolygon.h */,
-				1072B65721A68BAF000519C1 /* AIRGoogleMapOverlay.m */,
-				1072B65821A68BAF000519C1 /* AIRGMSPolyline.m */,
-				1072B65921A68BAF000519C1 /* AIRGoogleMapPolylineManager.m */,
-				1072B65A21A68BAF000519C1 /* AIRGoogleMapManager.m */,
-				1072B65B21A68BAF000519C1 /* AIRGoogleMapMarker.h */,
-				1072B65C21A68BAF000519C1 /* AIRGoogleMapPolygonManager.h */,
-				1072B65D21A68BAF000519C1 /* RCTConvert+GMSMapViewType.m */,
-				1072B65E21A68BAF000519C1 /* AIRGoogleMapCallout.m */,
-				1072B65F21A68BB0000519C1 /* AIRGoogleMapOverlayManager.m */,
-				1072B66021A68BB0000519C1 /* AIRGoogleMap.m */,
-				1072B66121A68BB0000519C1 /* AIRGoogleMapCircle.h */,
-				1072B66221A68BB0000519C1 /* AIRGoogleMapUrlTileManager.h */,
-				1072B66321A68BB0000519C1 /* AIRGoogleMapCircleManager.h */,
-				1072B66421A68BB0000519C1 /* AIRGoogleMapPolygon.m */,
-				1072B66521A68BB0000519C1 /* AIRGMSMarker.m */,
-			);
-			name = AirGoogleMaps;
-			path = "../node_modules/react-native-maps/lib/ios/AirGoogleMaps";
 			sourceTree = "<group>";
 		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
@@ -678,11 +568,12 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1012DE3621AE32B200870B7C /* libreact-native-maps.a */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				D5B0D8894BE4C913B7A68A6D /* libPods-TestV12BankingApp.a */,
-				4F386FADF802A5A58E812310 /* libPods-TestV12BankingApp-tvOS.a */,
-				3DE46837A16A2DC0462A6AB9 /* libPods-TestV12BankingApp-tvOSTests.a */,
-				61F5BEEA162D9FAC4B9E9E19 /* libPods-TestV12BankingAppTests.a */,
+				49D469F1C8D96C5503622019 /* libPods-TestV12BankingApp.a */,
+				39BDCD3E0699BE5FD9DD8465 /* libPods-TestV12BankingApp-tvOS.a */,
+				AE3AD2D86522497E845BE515 /* libPods-TestV12BankingApp-tvOSTests.a */,
+				D2231D4287B3F5ECE537D98F /* libPods-TestV12BankingAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -694,21 +585,6 @@
 				5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		612DBC2748A8806D5AE7BA14 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4D14A7DCD772DCFC04489B0E /* Pods-TestV12BankingApp.debug.xcconfig */,
-				18A3F856A4CF49D17B3ED436 /* Pods-TestV12BankingApp.release.xcconfig */,
-				9BD77BFB7540CF87A73FEA06 /* Pods-TestV12BankingApp-tvOS.debug.xcconfig */,
-				58926A032CE1CCAB7B898668 /* Pods-TestV12BankingApp-tvOS.release.xcconfig */,
-				73703812CCBBBEA034E801D2 /* Pods-TestV12BankingApp-tvOSTests.debug.xcconfig */,
-				2DE7F43D2CA633B04A927F31 /* Pods-TestV12BankingApp-tvOSTests.release.xcconfig */,
-				B1A0BB9791F2E05FD8F8512E /* Pods-TestV12BankingAppTests.debug.xcconfig */,
-				8847AD6EB76A536EDD117010 /* Pods-TestV12BankingAppTests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
@@ -752,14 +628,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				1072B63B21A68BAF000519C1 /* AirGoogleMaps */,
 				13B07FAE1A68108700A75B9A /* TestV12BankingApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* TestV12BankingAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				1072B5BC21A6898B000519C1 /* Recovered References */,
-				612DBC2748A8806D5AE7BA14 /* Pods */,
+				D3C7D378A3299CA85FD546EB /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -786,6 +661,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D3C7D378A3299CA85FD546EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3F02FD50A91B6D62F80941B /* Pods-TestV12BankingApp.debug.xcconfig */,
+				ABFBA06C7EF545E822649B16 /* Pods-TestV12BankingApp.release.xcconfig */,
+				F60DB44D18D99134CC78A66F /* Pods-TestV12BankingApp-tvOS.debug.xcconfig */,
+				CE42FD5EAABF9C2906E3B5DF /* Pods-TestV12BankingApp-tvOS.release.xcconfig */,
+				6D363A4BC8706E78D2DCAD92 /* Pods-TestV12BankingApp-tvOSTests.debug.xcconfig */,
+				8A4B12351B1BEF46BF1D8822 /* Pods-TestV12BankingApp-tvOSTests.release.xcconfig */,
+				2FD0B591D4F186B6E349F277 /* Pods-TestV12BankingAppTests.debug.xcconfig */,
+				5CC766436E061123847BBFC5 /* Pods-TestV12BankingAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -793,7 +683,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TestV12BankingAppTests" */;
 			buildPhases = (
-				CF79E830895CCFC43E47062A /* [CP] Check Pods Manifest.lock */,
+				5AFBF04DF0693351D5973F21 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -812,12 +702,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TestV12BankingApp" */;
 			buildPhases = (
-				F0594CD0C2802A661A44EB4F /* [CP] Check Pods Manifest.lock */,
+				D8B18A394936EC4F8F31BC01 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				AE256EEC596D33B684A6CB8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -832,7 +721,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TestV12BankingApp-tvOS" */;
 			buildPhases = (
-				245A56DA5D87A4D87EEF80CD /* [CP] Check Pods Manifest.lock */,
+				468FF7D14D1185FD513C1F3C /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
@@ -851,7 +740,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TestV12BankingApp-tvOSTests" */;
 			buildPhases = (
-				47F7102C06B34BAE31541141 /* [CP] Check Pods Manifest.lock */,
+				478A3A569BA5968BFEA5DCC4 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -1283,7 +1172,21 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		245A56DA5D87A4D87EEF80CD /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		468FF7D14D1185FD513C1F3C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1305,21 +1208,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		47F7102C06B34BAE31541141 /* [CP] Check Pods Manifest.lock */ = {
+		478A3A569BA5968BFEA5DCC4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1341,29 +1230,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AE256EEC596D33B684A6CB8E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TestV12BankingApp/Pods-TestV12BankingApp-resources.sh",
-				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestV12BankingApp/Pods-TestV12BankingApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CF79E830895CCFC43E47062A /* [CP] Check Pods Manifest.lock */ = {
+		5AFBF04DF0693351D5973F21 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1385,7 +1252,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F0594CD0C2802A661A44EB4F /* [CP] Check Pods Manifest.lock */ = {
+		D8B18A394936EC4F8F31BC01 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1422,28 +1289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1072B68E21A68BB0000519C1 /* AIRGoogleMapUrlTile.m in Sources */,
-				1072B69C21A68BB0000519C1 /* RCTConvert+GMSMapViewType.m in Sources */,
-				1072B68F21A68BB0000519C1 /* AIRGoogleMapPolygonManager.m in Sources */,
-				1072B69621A68BB0000519C1 /* AIRGoogleMapMarkerManager.m in Sources */,
-				1072B69321A68BB0000519C1 /* AIRGoogleMapCircle.m in Sources */,
-				1072B69221A68BB0000519C1 /* AIRGoogleMapURLTileManager.m in Sources */,
-				1072B69021A68BB0000519C1 /* AIRGoogleMapMarker.m in Sources */,
-				1072B69A21A68BB0000519C1 /* AIRGoogleMapPolylineManager.m in Sources */,
-				1072B68D21A68BB0000519C1 /* AIRDummyView.m in Sources */,
-				1072B69821A68BB0000519C1 /* AIRGoogleMapOverlay.m in Sources */,
-				1072B69921A68BB0000519C1 /* AIRGMSPolyline.m in Sources */,
-				1072B69421A68BB0000519C1 /* AIRGoogleMapCircleManager.m in Sources */,
-				1072B69121A68BB0000519C1 /* AIRGMSPolygon.m in Sources */,
-				1072B69D21A68BB0000519C1 /* AIRGoogleMapCallout.m in Sources */,
-				1072B69721A68BB0000519C1 /* AIRGoogleMapPolyline.m in Sources */,
-				1072B6A121A68BB0000519C1 /* AIRGMSMarker.m in Sources */,
-				1072B69E21A68BB0000519C1 /* AIRGoogleMapOverlayManager.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				1072B6A021A68BB0000519C1 /* AIRGoogleMapPolygon.m in Sources */,
-				1072B69B21A68BB0000519C1 /* AIRGoogleMapManager.m in Sources */,
-				1072B69F21A68BB0000519C1 /* AIRGoogleMap.m in Sources */,
-				1072B69521A68BB0000519C1 /* AIRGoogleMapCalloutManager.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1495,7 +1341,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1A0BB9791F2E05FD8F8512E /* Pods-TestV12BankingAppTests.debug.xcconfig */;
+			baseConfigurationReference = 2FD0B591D4F186B6E349F277 /* Pods-TestV12BankingAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1509,9 +1355,7 @@
 				INFOPLIST_FILE = TestV12BankingAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1524,7 +1368,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8847AD6EB76A536EDD117010 /* Pods-TestV12BankingAppTests.release.xcconfig */;
+			baseConfigurationReference = 5CC766436E061123847BBFC5 /* Pods-TestV12BankingAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1535,9 +1379,7 @@
 				INFOPLIST_FILE = TestV12BankingAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1550,7 +1392,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D14A7DCD772DCFC04489B0E /* Pods-TestV12BankingApp.debug.xcconfig */;
+			baseConfigurationReference = B3F02FD50A91B6D62F80941B /* Pods-TestV12BankingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1575,7 +1417,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18A3F856A4CF49D17B3ED436 /* Pods-TestV12BankingApp.release.xcconfig */;
+			baseConfigurationReference = ABFBA06C7EF545E822649B16 /* Pods-TestV12BankingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1599,7 +1441,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BD77BFB7540CF87A73FEA06 /* Pods-TestV12BankingApp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = F60DB44D18D99134CC78A66F /* Pods-TestV12BankingApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1616,9 +1458,7 @@
 				);
 				INFOPLIST_FILE = "TestV12BankingApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1633,7 +1473,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58926A032CE1CCAB7B898668 /* Pods-TestV12BankingApp-tvOS.release.xcconfig */;
+			baseConfigurationReference = CE42FD5EAABF9C2906E3B5DF /* Pods-TestV12BankingApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1650,9 +1490,7 @@
 				);
 				INFOPLIST_FILE = "TestV12BankingApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1667,7 +1505,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73703812CCBBBEA034E801D2 /* Pods-TestV12BankingApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 6D363A4BC8706E78D2DCAD92 /* Pods-TestV12BankingApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1683,9 +1521,7 @@
 				);
 				INFOPLIST_FILE = "TestV12BankingApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1700,7 +1536,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DE7F43D2CA633B04A927F31 /* Pods-TestV12BankingApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 8A4B12351B1BEF46BF1D8822 /* Pods-TestV12BankingApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1716,9 +1552,7 @@
 				);
 				INFOPLIST_FILE = "TestV12BankingApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",

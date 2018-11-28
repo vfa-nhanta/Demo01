@@ -6,8 +6,6 @@ target 'TestV12BankingApp' do
   # use_frameworks!
 
   # Pods for TestV12BankingApp
-  pod 'Yoga'
-  pod 'GoogleMaps'
   target 'TestV12BankingAppTests' do
     inherit! :search_paths
     # Pods for testing
